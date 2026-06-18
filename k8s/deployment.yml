@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: waso-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: waso-app
+  template:
+    metadata:
+      labels:
+        app: waso-app
+    spec:
+      containers:
+      - name: waso-container
+        image: lekharaj/docker-repo-5:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
