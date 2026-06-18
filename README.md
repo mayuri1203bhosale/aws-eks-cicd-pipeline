@@ -1,11 +1,11 @@
 # 🚀 AWS EKS CI/CD Pipeline using Jenkins, Docker & Kubernetes
 
+
 ## 📌 Project Overview
 
-This project demonstrates a complete DevOps CI/CD pipeline for deploying a Dockerized web application to an AWS Elastic Kubernetes Service (EKS) cluster using Jenkins.
+This project demonstrates the implementation of a complete DevOps CI/CD pipeline designed for deploying a Dockerized web application to an AWS Elastic Kubernetes Service (EKS) cluster using Jenkins.
 
-The pipeline automates the complete deployment process, from source code management to container deployment on Kubernetes.
-
+The project includes the complete pipeline configuration, Dockerfile, Kubernetes manifests, and automation scripts that showcase how code changes can be automatically built, containerized, and deployed in an AWS EKS environment.
 ---
 
 ## 🏗️ Project Architecture
@@ -182,7 +182,7 @@ The Dockerfile:
 - Automated CI/CD Pipeline
 - Dockerized Application
 - Kubernetes Deployment
-- AWS EKS Integration
+- - AWS EKS Deployment Configuration
 - GitHub Webhook Integration
 - Jenkins Pipeline Automation
 - Load Balancer Deployment
@@ -198,7 +198,7 @@ Through this project, I learned:
 - Docker Hub integration
 - Jenkins Pipeline automation
 - AWS CLI configuration
-- Amazon EKS deployment
+- Amazon EKS deployment workflow and configuration
 - Kubernetes Deployment and Service configuration
 - Continuous Integration and Continuous Deployment (CI/CD)
 
